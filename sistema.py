@@ -3,7 +3,7 @@ from interface import *
 from time import sleep
 
 while True:
-    esc = menu(['soma', 'subtração', 'multiplicação', 'divisão', 'porcentagem','sair do sistema'])
+    esc = menu(['soma', 'subtração', 'multiplicação', 'divisão', 'porcentagem', 'sair do sistema'])
     if esc == 1:
         cabecalho('SOMA')
         s()
