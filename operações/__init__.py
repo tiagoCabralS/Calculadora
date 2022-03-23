@@ -55,3 +55,10 @@ def mult(*num):
 def div(dividendo, divisor):
     quo = dividendo / divisor
     print(f'Dividindo {dividendo} pelo {divisor} temos resultado {quo}')
+
+
+def porcem(num, porcen):
+    por = num / 100 * porcen
+    if por % 1 == 0:
+        por = int(por)
+    print(f'Calculando {porcen}% de {num} temos {por:.1f}')
