@@ -11,6 +11,13 @@ def leiaInt(msg):
     return n
 
 
+def potencia():
+    n1 = leiaInt('Base: ')
+    n2 = leiaInt('Expoente: ')
+    pote = pow(n1, n2)
+    print(f'{n1} potência {n2} = {pote}')
+
+
 def s():
     s = []
     while True:

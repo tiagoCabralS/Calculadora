@@ -3,7 +3,7 @@ from interface import *
 from time import sleep
 
 while True:
-    esc = menu(['soma', 'subtração', 'multiplicação', 'divisão', 'porcentagem', 'sair do sistema'])
+    esc = menu(['soma', 'subtração', 'multiplicação', 'divisão', 'porcentagem', 'potência', 'sair do sistema'])
     if esc == 1:
         cabecalho('SOMA')
         s()
@@ -31,6 +31,10 @@ while True:
         porcem(n, p)
         sleep(2)
     elif esc == 6:
+        cabecalho('POTÊNCIA')
+        potencia()
+        sleep(1)
+    elif esc == 7:
         cabecalho('FINALIZANDO...ATÈ LOGO!')
         sleep(1)
         break
